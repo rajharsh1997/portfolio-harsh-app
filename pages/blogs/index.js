@@ -40,7 +40,7 @@ export async function getStaticProps() {
   const blogs = data.map(item => ({...item.blog, author: item.author}))
   return {
     props: { blogs },
-    unstable_revalidate: 60
+    revalidate: 60
   }
 }
 
