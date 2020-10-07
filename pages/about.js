@@ -27,7 +27,7 @@ const About = () => {
   return (
     <BaseLayout user={data} loading={loading}>
       <BasePage
-        title="About Me - Filip Jerga"
+        title="About Me - Harsh"
         className="about-page">
         <Row className="mt-5">
           <Col md="6">
@@ -39,17 +39,15 @@ const About = () => {
           </Col>
           <Col md="6">
             <div className={`${createFadeInClass()}`}>
-              <p>My name is Filip Jerga and I am an experienced software engineer and freelance developer. </p>
+              <p>My name is Harsh Raj and I am an experienced software engineer and freelance developer. </p>
               <p>
-              I have a Master's degree in Artificial Intelligence and several years of experience working
-              on a wide range of technologies and projects from C++ development for ultrasound devices to
-                modern mobile and web applications in React and Angular.
+              I have a Bachelor's degree in Computer Science and one year of experience working
+              on a wide range of technologies and projects from Java development to
+                modern desktop and web applications in React and Angular.
               </p>
               <p>
-              Throughout my career, I have acquired advanced technical knowledge and the ability to explain
-              programming topics clearly and in detail to a broad audience. I invite you to take my course,
-              where I have put a lot of effort to explain web and software engineering concepts in a detailed,
-              hands-on and understandable way.
+              Throughout my career, I have acquired technical knowledge and the ability to solve complex
+              problem by breaking it into smaller chunks.
               </p>
             </div>
           </Col>

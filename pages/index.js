@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Typed from 'react-typed';
 import { useGetUser } from '@/actions/user';
 
-const ROLES = ['Developer', 'Tech Lover', 'Team Player', 'Course Creator', 'React.js', 'Angular'];
+const ROLES = ['Developer', 'Tech Lover', 'Team Player', 'React.js', 'Electron JS', 'Redux'];
 const Index = () => {
   const [isFlipping, setIsFlipping] = useState(false);
   const { data, loading } = useGetUser();
@@ -29,7 +29,7 @@ const Index = () => {
       loading={loading}
       navClass="transparent"
       className={`cover ${isFlipping ? 'cover-orange' : 'cover-blue'}`}>
-      <BasePage indexPage title="Portfolio - Filip Jerga">
+      <BasePage indexPage title="Portfolio - Harsh Raj">
         <div className="main-section">
           <div className="background-image">
             <img src="/images/background-index.png" />
@@ -71,7 +71,7 @@ const Index = () => {
               <Col md="6" className="hero-welcome-wrapper">
                 <div className="hero-welcome-text">
                   <h1>
-                    Welcome to the portfolio website of Filip Jerga.
+                    Welcome to the portfolio website of Harsh Raj.
                     Get informed, collaborate and discover projects I was working on through the years!
                   </h1>
                 </div>

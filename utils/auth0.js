@@ -20,6 +20,7 @@ const auth0 = initAuth0({
 export default auth0;
 
 export const isAuthorized = (user, role) => {
+  //debugger
   return (user && user[process.env.AUTH0_NAMESPACE + '/roles'].includes(role));
 }
 
@@ -50,4 +51,3 @@ export const withAuth = getData => role => async ({req, res}) => {
 
   return {props: {user: session.user, ...data}}
 }
-

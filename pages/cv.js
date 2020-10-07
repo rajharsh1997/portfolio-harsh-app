@@ -10,10 +10,10 @@ const Cv = () => {
   return (
     <BaseLayout user={data} loading={loading}>
       <BasePage
-        title="My Experiences - Filip Jerga">
+        title="My Experiences - Harsh Raj">
         <Row>
           <Col md={{size: 8, offset: 2}}>
-            <iframe style={{width: '100%', height: '800px'}} src="/jerga_cv.pdf"/>
+            <iframe style={{width: '100%', height: '800px'}} src="/resume@Harshv10.pdf"/>
           </Col>
         </Row>
       </BasePage>
